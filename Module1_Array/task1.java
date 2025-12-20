@@ -1,3 +1,6 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
 class Main {
     public static void main(String[] args) {
         int[]n={10,20,30,40};
@@ -8,19 +11,25 @@ class Main {
         System.out.println(n.length);
         
         for(int i=0; i<n.length; i++){
-            System.out.println("at index "+ i + "is" + n[i]);
+            System.out.println("at index "+ i + " is " + n[i]);
         }
         
         int[] n1= new int[] {1,2,3,4};
         
         for(int i=0; i<n1.length; i++){
-            System.out.println("at index "+ i + "is" + n1[i]);
+            System.out.println("at index "+ i + " is " + n1[i]);
         }
         
         String[] names =new String[] {"jeet","raj","ram"};
         for(int i=0; i<names.length; i++){
-            System.out.println("at index "+ i + "is" + names[i]);
+            System.out.println("at index "+ i + " is " + names[i]);
         }
-        
+         int[] darr= new int[10]; 
+
+        darr[0]=1;
+        darr[9]=8;
+       for (int i = 0; i < darr.length; i++) {
+        System.out.println(darr[i]);
     }
+}
 }
