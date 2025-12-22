@@ -5,6 +5,10 @@ class Student{
     void getName(){
         System.out.println(name);
     }
+    
+    void getAge(){
+        System.out.println(age);
+    }
 }
 
 class Main {
@@ -15,6 +19,6 @@ class Main {
         System.out.println(a.name);
         System.out.println(a.age);
         a.getName();
-        
+        a.getAge();
     }
 }
