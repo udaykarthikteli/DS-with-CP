@@ -1,4 +1,4 @@
-#output of Task2.java
+#output of classBasics.java
 
 <img width="390" height="280" alt="image" src="https://github.com/user-attachments/assets/db295487-496a-499c-9df2-3b1fe5e8bc69" />
 
