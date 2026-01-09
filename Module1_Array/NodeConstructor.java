@@ -9,6 +9,7 @@ class Node{
         next=null;
     }
     
+    
     public void getData(){
         System.out.println(data);
     }
@@ -21,8 +22,12 @@ class Node{
 class Main {
     public static void main(String[] args) {
         Node a = new Node(40);
+        Node b = new Node(60);
         a.getData();
         a.getNext();
        System.out.println(a);
+       b.getData();
+       b.getNext();
+       System.out.println(b);
     }
 }
