@@ -20,7 +20,9 @@ class Node{
 }
 class Main {
     public static void main(String[] args) {
-        Node a = new Node(10);
+        Node a = new Node(40);
+        a.getData();
+        a.getNext();
        System.out.println(a);
     }
 }
